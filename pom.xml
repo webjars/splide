@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>splide</artifactId>
-    <version>3.6.12</version>
+    <version>3.6.13-SNAPSHOT</version>
     <name>Splide</name>
     <description>WebJar for Splide</description>
     <url>http://webjars.org</url>
@@ -34,7 +34,7 @@
         <url>https://github.com/webjars/splide</url>
         <connection>scm:git:https://github.com/webjars/splide.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/splide.git</developerConnection>
-        <tag>splide-3.6.12</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <build>
