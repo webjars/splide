@@ -70,7 +70,7 @@
                                 <echo message="unzipping" />
                                 <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}" />
                                 <echo message="moving resources" />
-                                <move todir="${destinationDir}">
+                                <move todir="${destDir}">
                                     <fileset dir="${project.build.directory}/${project.artifactId}-${version.unrevise}/dist" />
                                 </move>
                             </target>
